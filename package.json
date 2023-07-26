@@ -1,0 +1,24 @@
+{
+  "name": "appwizardlambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "appwizard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "mendixmodelsdk": "^4.76.0",
+    "mendixplatformsdk": "^5.1.2",
+    "typescript": "^5.1.6",
+    "uuid": "^9.0.0",
+    "when": "^3.7.8"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/uuid": "^9.0.2"
+  }
+}
