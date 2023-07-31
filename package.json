@@ -1,7 +1,7 @@
 {
   "name": "appwizardlambda",
   "version": "1.0.0",
-  "description": "",
+  "description": "AWS Lambda NodeJS code for the App Generating Wizard",
   "main": "appwizard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

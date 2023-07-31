@@ -61,6 +61,8 @@ async function setSCSSVariable(inputFile: string, outputFile: string, variableNa
     writeStream.close();
 }
   
+const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
+  
 export const handler: Handler = async(event, context) => 
 {
     // Extract the request details
